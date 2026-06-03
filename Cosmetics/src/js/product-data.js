@@ -1,0 +1,354 @@
+export const products = [
+  {
+    slug: 'შამპუნი',
+    name: 'დამატენიანებელი შამპუნი',
+    category: 'თმის მოვლა',
+    brand: 'URIAGE',
+    image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1200&q=80',
+    summary: 'მსუბუქი დამატენიანებელი ცხიმიანი თმისთვისა და სკალპისთვის',
+    description: [
+      'Shampoo is the foundation of a hair care routine because it clears away sweat, scalp oil, pollution, and product buildup. A hydrating formula is best for normal, dry, color-treated, or frequently styled hair because it cleans while supporting softness.',
+      'Use it mainly on the scalp, then let the rinse move through the lengths. This keeps the roots fresh while reducing unnecessary friction on fragile ends.'
+    ],
+    ingredients: ['Aqua', 'Sodium Cocoyl Isethionate', 'Cocamidopropyl Betaine', 'Glycerin', 'Panthenol', 'Aloe Barbadensis Leaf Juice', 'Argania Spinosa Kernel Oil', 'Citric Acid', 'Sodium Benzoate', 'Parfum'],
+    bestFor: ['Regular scalp cleansing', 'Dry or dull lengths', 'People who use styling products often'],
+    cautions: ['Avoid harsh daily washing if the scalp feels tight or itchy', 'Choose fragrance-free formulas if you are sensitive to scent'],
+    related: ['conditioner', 'hair-mask', 'hair-oil']
+  },
+  {
+    slug: 'კონდიშენერი',
+    name: 'დამატენიანებელი კონდიშენერი',
+    category:'თმის მოვლა',
+    brand: 'URIAGE',
+    image: 'https://images.unsplash.com/photo-1626808642875-0aa545482dfb?auto=format&fit=crop&w=1200&q=80',
+    summary: 'შამპუნის შემდეგ თმის სიმშრალის აღმოსაფხვრელად',
+    description: [
+      'Conditioner is designed for the mid-lengths and ends, where hair is older and more likely to feel dry. It adds slip, improves combing, and can make hair look smoother after washing.',
+      'It is usually not needed directly on the scalp unless the formula is made for scalp care. Leaving it on for a few minutes gives conditioning ingredients time to coat the hair fiber.'
+    ],
+    ingredients: ['Aqua', 'Cetearyl Alcohol', 'Behentrimonium Chloride', 'Glycerin', 'Butyrospermum Parkii Butter', 'Panthenol', 'Hydrolyzed Wheat Protein', 'Argania Spinosa Kernel Oil', 'Lactic Acid', 'Phenoxyethanol'],
+    bestFor: ['Tangles after washing', 'Dry ends', 'Heat-styled hair'],
+    cautions: ['Too much conditioner near the roots can make fine hair look flat', 'Protein-rich conditioners may feel stiff on some hair types'],
+    related: ['shampoo', 'hair-mask', 'hair-oil']
+  },
+  {
+    slug: 'თმის ზეთი',
+    name: 'თმის ზეთი',
+    category: 'თმის მოვლა',
+    brand: 'Uriage ',
+    image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1200&q=80',
+    summary: 'საბოლოოდ თმის გასაპრიალებლად და მშრალი ბოლოების დასარბილებლად',
+    description: [
+      'Hair oil is useful when the ends feel rough or when styling leaves hair looking dry. A small amount can make hair look shinier and more polished without changing the entire routine.',
+      'The key is moderation. Start with one or two drops, warm it between your hands, and apply from the mid-lengths down.'
+    ],
+    ingredients: ['Caprylic/Capric Triglyceride', 'Argania Spinosa Kernel Oil', 'Simmondsia Chinensis Seed Oil', 'Prunus Amygdalus Dulcis Oil', 'Helianthus Annuus Seed Oil', 'Tocopherol', 'Rosmarinus Officinalis Leaf Extract'],
+    bestFor: ['Dry ends', 'Shine after styling', 'Pre-wash softness'],
+    cautions: ['Heavy oils can weigh down fine hair', 'Avoid applying oil before hot tools unless the product says it is heat safe'],
+    related: ['hair-mask', 'conditioner', 'shampoo']
+  },
+  {
+    slug: 'თმის ნიღაბი',
+    name: 'აღმდგენი ნიღაბი',
+    category: 'თმის მოვლა',
+    brand: 'Uriage ',
+    image: 'https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&w=1200&q=80',
+    summary: 'ყოველ კვირეული ღრმა კონდიშენერი უხეში თმისა და სკალპისთვის',
+    description: [
+      'Hair masks are more intensive than everyday conditioners. They are helpful after heat styling, coloring, swimming, or any period where the hair feels unusually dry.',
+      'Use a mask once a week or when needed. More is not always better, especially if the formula is rich in butters, oils, or proteins.'
+    ],
+    ingredients: ['Aqua', 'Cetearyl Alcohol', 'Behentrimonium Methosulfate', 'Glycerin', 'Shea Butter', 'Panthenol', 'Hydrolyzed Keratin', 'Avocado Oil', 'Amodimethicone', 'Citric Acid'],
+    bestFor: ['Weekly repair routines', 'Dry or coarse hair', 'Post-color care'],
+    cautions: ['Overuse can leave buildup', 'Patch test if the scalp is reactive'],
+    related: ['conditioner', 'hair-oil', 'shampoo']
+  },
+  {
+    slug: 'საპონი',
+    name: 'მსუბუქი საწმენდი საპონი',
+    category: 'ტანის მოვლა',
+    brand: 'Uriage ',
+    image: 'https://images.unsplash.com/photo-1607006483224-4e9e13f7edc1?auto=format&fit=crop&w=1200&q=80',
+    summary: 'ყოველდჟიური გამოყენების მსუბუქი საპონი',
+    description: [
+      'Soap removes sweat, odor, and dirt from the skin. A gentle bar can be practical and low-waste, but the formula matters because traditional soap can feel drying for some skin types.',
+      'Look for added humectants or oils if your skin feels tight after showering. Follow with lotion when your skin is still slightly damp.'
+    ],
+    ingredients: ['Sodium Palmate', 'Sodium Palm Kernelate', 'Aqua', 'Glycerin', 'Sorbitol', 'Coconut Oil', 'Shea Butter', 'Sodium Chloride', 'Tetrasodium Glutamate Diacetate', 'Parfum'],
+    bestFor: ['Quick showers', 'Normal body skin', 'Low-waste routines'],
+    cautions: ['Avoid on the face if it feels drying', 'Fragranced bars may bother sensitive skin'],
+    related: ['body-lotion', 'body-oil', 'body-scrub']
+  },
+  {
+    slug: 'ტანის ლოსიონი',
+    name: 'ტანის ლოსიონი',
+    category: 'ტანის მოვლა',
+    brand: 'Uriage ',
+    image: 'https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&w=1200&q=80',
+    summary: 'ბანაობის შემდგომ მგრძნობიარე კანის დასარბილებლად',
+    description: [
+      'Body lotion helps replace water and lipids lost during washing, weather changes, or daily friction from clothing. It is one of the simplest products for keeping skin comfortable.',
+      'Apply it after a shower while skin is still slightly damp. This helps trap moisture and makes the product easier to spread.'
+    ],
+    ingredients: ['Aqua', 'Glycerin', 'Caprylic/Capric Triglyceride', 'Cetearyl Alcohol', 'Shea Butter', 'Dimethicone', 'Niacinamide', 'Allantoin', 'Carbomer', 'Phenoxyethanol'],
+    bestFor: ['Dry arms and legs', 'Post-shower care', 'Winter routines'],
+    cautions: ['Very rich lotions may feel heavy in humid weather', 'Avoid broken skin unless the formula is made for it'],
+    related: ['soap', 'body-oil', 'body-scrub']
+  },
+  {
+    slug: 'ტანის სკრაბი',
+    name: 'ტანის სკრაბი',
+    category: 'ტანის მოვლა',
+    brand: 'Uriage ',
+    image: 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=1200&q=80',
+    summary: 'არბილებს უხეშ ტექსტურის კანს და ხელს უწყობს ლოსიონის უკეთ შეწოვას',
+    description: [
+      'Body scrubs use physical exfoliants to lift dull surface cells. They can be useful for rough elbows, knees, and areas that feel bumpy or dry.',
+      'Use gentle pressure and avoid scrubbing freshly shaved, sunburned, or irritated skin. Once or twice a week is enough for most people.'
+    ],
+    ingredients: ['Sucrose', 'Glycerin', 'Caprylic/Capric Triglyceride', 'Sunflower Seed Oil', 'Coconut Oil', 'Shea Butter', 'Tocopherol', 'Aloe Vera Juice', 'Parfum'],
+    bestFor: ['Rough patches', 'Pre-lotion smoothing', 'Occasional exfoliation'],
+    cautions: ['Do not use on irritated or broken skin', 'Too much scrubbing can weaken the skin barrier'],
+    related: ['body-lotion', 'body-oil', 'soap']
+  },
+  {
+    slug: 'ბზინვარების ტანის ზეთი',
+    name: 'ბზინვარების ტანის ზეთი',
+    category: 'ტანის მოვლა',
+    brand: 'Uriage',
+    image: 'https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=1200&q=80',
+    summary: 'მკვებავი ზეთი, რომელიც ინარჩუნებს ტენიანობას და კანს ჯანსაღ იერს ანიჭებს.',
+    description: [
+      'Body oil is best used after bathing, either alone or layered over lotion. It helps reduce water loss and gives dry skin a smoother look',
+      'Because oils do not add much water by themselves, they work especially well when applied to damp skin or over a hydrating lotion.'
+    ],
+    ingredients: ['Caprylic/Capric Triglyceride', 'Jojoba Seed Oil', 'Sweet Almond Oil', 'Grape Seed Oil', 'Sunflower Seed Oil', 'Tocopherol', 'Bisabolol', 'Lavender Oil'],
+    bestFor: ['Very dry body skin', 'Massage', 'Soft sheen after showering'],
+    cautions: ['Can make floors or tubs slippery', 'Nut oils may not suit people with specific allergies'],
+    related: ['body-lotion', 'body-scrub', 'soap']
+  },
+  {
+    slug: 'სახის კრეი',
+    name: 'სახის კრემი',
+    category: 'კანის მოვლა',
+    brand: 'Uriage Daily Skin',
+    image: 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=1200&q=80',
+    summary: 'დამატენიანებელი სახის კრემი კანის ბარიერის მხარდასაჭერად და სიმშრალისა და დაჭიმულობის შეგრძნების შესამცირებლად',
+    description: [
+      'Face cream helps keep water in the skin and supports a healthier-looking barrier. It is useful even for oily skin when the texture is light and non-greasy.',
+      'Apply it after cleansing, toner, or serum. In the morning, follow with sunscreen if the cream does not already include broad-spectrum protection.'
+    ],
+    ingredients: ['Aqua', 'Glycerin', 'Squalane', 'Cetearyl Alcohol', 'Niacinamide', 'Ceramide NP', 'Hyaluronic Acid', 'Panthenol', 'Allantoin', 'Phenoxyethanol'],
+    bestFor: ['Daily moisture', 'Barrier support', 'Dry or normal skin'],
+    cautions: ['Rich creams may clog easily congested skin', 'Introduce new actives slowly if your skin is reactive'],
+    related: ['serum', 'toner', 'sunscreen']
+  },
+  {
+    slug: 'შრატი',
+    name: 'სახის შრატი',
+    category: 'კანის მოვლა',
+    brand: 'Uriage Active Serum',
+    image: 'https://images.unsplash.com/photo-1611080541599-8c6dbde6ed28?auto=format&fit=crop&w=1200&q=80',
+    summary: 'კანის კონცენტრირებული დატენიანებისთვის, ბზინვარებისა და მიზანმიმართული მხარდაჭერისთვის დამატენიანებელამდე',
+    description: [
+      'Serums are lightweight products that deliver focused ingredients. A hydrating serum can make skin look plumper and help moisturizer perform better.',
+      'Apply a few drops after cleansing and before cream. If the serum includes strong actives, introduce it slowly and use sunscreen during the day.'
+    ],
+    ingredients: ['Aqua', 'Glycerin', 'Propanediol', 'Sodium Hyaluronate', 'Niacinamide', 'Panthenol', 'Betaine', 'Centella Asiatica Extract', 'Sodium PCA', 'Phenoxyethanol'],
+    bestFor: ['Dehydrated skin', 'Layering under cream', 'Lightweight routines'],
+    cautions: ['Do not layer too many strong actives at once', 'Stop use if stinging continues after application'],
+    related: ['face-cream', 'toner', 'sunscreen']
+  },
+  {
+    slug: 'ტონერი',
+    name: 'სახის ტონერი',
+    category: 'კანის მოვლა',
+    brand: 'Uriage Balance Toner',
+    image: 'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=1200&q=80',
+    summary: 'მსუბუქი თხევადი საშუალება, რომელიც აახალგაზრდავებს კანს გაწმენდის შემდეგ და ამზადებს მას შრატისა ან კრემისათვის',
+    description: [
+      'Modern toners are often hydrating or balancing rather than harsh. They can help remove leftover cleanser, add light hydration, and make the next steps feel smoother.',
+      'Use hands or a cotton pad depending on the formula. Avoid alcohol-heavy toners if your skin feels dry, tight, or easily irritated.'
+    ],
+    ingredients: ['Aqua', 'Glycerin', 'Rose Flower Water', 'Betaine', 'Panthenol', 'Allantoin', 'Cucumber Extract', 'Sodium PCA', 'Citric Acid', 'Potassium Sorbate'],
+    bestFor: ['Light hydration', 'Post-cleanse freshness', 'Layering routines'],
+    cautions: ['Astringent toners can dry skin', 'Fragrance-heavy formulas may irritate sensitive skin'],
+    related: ['serum', 'face-cream', 'sunscreen']
+  },
+  {
+    slug: 'მზისდამცავი',
+    name: 'მზისდამცავი',
+    category: 'კანის მოვლა',
+    brand: 'Uriage Sun Shield',
+    image: 'https://images.unsplash.com/photo-1556229174-5e42a09e45af?auto=format&fit=crop&w=1200&q=80',
+    summary: 'ყოველდღიური ულტრაიისფერი სხივებისგან დამცავი, ხელს უშლის დამწვრობას, მუქ ლაქებს და ნაადრევ დაბერების ნიშნებს',
+    description: [
+      'Sunscreen is one of the most important cosmetic products because it protects skin from ultraviolet radiation. Daily use helps reduce sunburn risk and supports an even-looking complexion.',
+      'Apply enough product and reapply when outdoors, sweating, or swimming. Makeup with SPF is usually not enough by itself unless applied in the correct amount.'
+    ],
+    ingredients: ['Aqua', 'Homosalate', 'Ethylhexyl Salicylate', 'Butyl Methoxydibenzoylmethane', 'Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine', 'Glycerin', 'Silica', 'Tocopherol', 'Phenoxyethanol'],
+    bestFor: ['Daytime routines', 'Preventing sunburn', 'Reducing photoaging risk'],
+    cautions: ['Reapply for real outdoor protection', 'Check local guidance and labels for SPF and broad-spectrum claims'],
+    related: ['face-cream', 'serum', 'toner']
+  },
+  {
+    slug: 'მაკიაჟის ბაზა',
+    name: 'კანის ფერის ბაზა',
+    category: 'მაკიაჟი',
+    brand: 'Uriage Skin Tint',
+    image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=80',
+    summary: 'სახის კანის მოვლის საშუალება, რომელიც ათანაბრებს ტონს, არბილებს სიწითლეს და ქმნის საფუძველს სხვა მაკიაჟისთვის',
+    description: [
+      'Foundation can be sheer, medium, or full coverage. A skin tint style is blog-friendly because it focuses on evening the complexion while still looking natural.',
+      'Match shade in natural light when possible. Apply thin layers and build only where extra coverage is needed.'
+    ],
+    ingredients: ['Aqua', 'Dimethicone', 'Glycerin', 'Titanium Dioxide', 'Iron Oxides', 'Squalane', 'Silica', 'Niacinamide', 'Tocopherol', 'Phenoxyethanol'],
+    bestFor: ['Evening skin tone', 'Natural makeup looks', 'Redness or uneven color'],
+    cautions: ['Remove thoroughly before bed', 'Heavy coverage can emphasize dry texture if skin is not moisturized'],
+    related: ['concealer', 'blush', 'sunscreen']
+  },
+  // {
+  //   slug: 'lipstick',
+  //   name: 'Soft Color Lipstick',
+  //   category: 'მაკიაჟი',
+  //   brand: 'Uriage Color Care',
+  //   image: 'https://images.unsplash.com/photo-1583688648167-0d2a1e4efc2e?auto=format&fit=crop&w=1200&q=80',
+  //   summary: 'A lip color product that adds polish, mood, and finish while helping lips look more defined.',
+  //   description: [
+  //     'Lipstick can change the tone of an entire look. Cream formulas are comfortable for everyday wear, while matte formulas usually last longer but may feel drier.',
+  //     'Prep lips with a balm if they are flaky. Blotting between layers improves wear without making the color feel heavy.'
+  //   ],
+  //   ingredients: ['Ricinus Communis Seed Oil', 'Candelilla Wax', 'Beeswax', 'Caprylic/Capric Triglyceride', 'Shea Butter', 'Tocopherol', 'Mica', 'Titanium Dioxide', 'Iron Oxides', 'Red 7 Lake'],
+  //   bestFor: ['Adding color quickly', 'Defined lips', 'Day-to-night makeup'],
+  //   cautions: ['Deep pigments may stain dry lips', 'Check wax or fragrance ingredients if lips are sensitive'],
+  //   related: ['makeup-foundation', 'blush', 'concealer']
+  // },
+  // {
+  //   slug: 'eyeshadow',
+  //   name: 'Neutral Eyeshadow Palette',
+  //   category: 'მაკიაჟი',
+  //   brand: 'Uriage Soft Color',
+  //   image: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1200&q=80',
+  //   summary: 'A pressed color product for adding depth, brightness, or definition around the eyes.',
+  //   description: [
+  //     'Eyeshadow can be subtle or dramatic depending on color, finish, and placement. Neutral shades are useful for simple everyday looks because they blend easily.',
+  //     'Use lighter tones to brighten, mid-tones to shape, and deeper tones for definition. Remove eye makeup gently to avoid rubbing the delicate eye area.'
+  //   ],
+  //   ingredients: ['Mica', 'Talc', 'Dimethicone', 'Magnesium Stearate', 'Silica', 'Jojoba Esters', 'Tocopherol', 'Tin Oxide', 'Titanium Dioxide', 'Iron Oxides'],
+  //   bestFor: ['Eye definition', 'Soft daily looks', 'Layered color'],
+  //   cautions: ['Avoid using products not labeled eye-safe near the eyes', 'Discard if texture, smell, or performance changes'],
+  //   related: ['eyeliner', 'mascara', 'concealer']
+  // },
+  {
+    slug: 'თვალის ლაინერი',
+    name: 'თვალის ლაინერი',
+    category: 'მაკიაჟი',
+    brand: 'Uriage Definition',
+    image: 'https://images.unsplash.com/photo-1596704017254-975987770e88?auto=format&fit=crop&w=1200&q=80',
+    summary: 'განსაზღვრავს წამწამების ხაზს და ცვლის თვალის იერსახეს, გამოკვეთს თვალის კონტურებს და ქმნის სხვადასხვა მაკიაჟის სტილს',
+    description: [
+      'Eyeliner can make lashes look fuller and give the eyes more structure. Pencil liners are softer and easier to smudge, while liquid liners create sharper lines.',
+      'Keep application close to the lash line and avoid sharing eye products. Replace products regularly, especially if used near the waterline.'
+    ],
+    ingredients: ['Cyclopentasiloxane', 'Synthetic Wax', 'Mica', 'Iron Oxides', 'Trimethylsiloxysilicate', 'Jojoba Esters', 'Tocopherol', 'Phenoxyethanol'],
+    bestFor: ['Lash-line definition', 'Winged liner looks', 'Soft smoky makeup'],
+    cautions: ['Do not use if eyes are infected or irritated', 'Remove gently to avoid tugging'],
+    related: ['mascara', 'eyeshadow', 'concealer']
+  },
+  {
+    slug: 'ტუში',
+    name: 'წამწამების ტუში',
+    category: 'მაკიაჟი',
+    brand: 'Uriage Lash Care',
+    image: 'https://images.unsplash.com/photo-1631214524049-0ebbbe6d81aa?auto=format&fit=crop&w=1200&q=80',
+    summary: 'წამწამების პროდუქტი, რომელიც ამუქებს, ახანგრძლივებს და ამაღლებს წამწამების იერსახეს',
+    description: [
+      'Mascara is one of the fastest ways to make eyes look more awake. Different brushes and formulas can create length, volume, curl, or a natural tint.',
+      'Apply from root to tip with light coats. Avoid pumping the wand because it pushes air into the tube and can dry the formula faster.'
+    ],
+    ingredients: ['Aqua', 'Beeswax', 'Copernicia Cerifera Wax', 'Stearic Acid', 'Acacia Senegal Gum', 'Panthenol', 'Iron Oxides', 'Tocopherol', 'Phenoxyethanol'],
+    bestFor: ['Defined lashes', 'Quick makeup routines', 'Brighter-looking eyes'],
+    cautions: ['Replace every few months for hygiene', 'Do not share mascara'],
+    related: ['eyeliner', 'eyeshadow', 'concealer']
+  },
+  // {
+  //   slug: 'blush',
+  //   name: 'Fresh Color Blush',
+  //   category: 'მაკიაჟი',
+  //   brand: 'Uriage Fresh Color',
+  //   image: 'https://images.unsplash.com/photo-1631214540242-426eba04baba?auto=format&fit=crop&w=1200&q=80',
+  //   summary: 'A cheek color product that adds warmth, freshness, and dimension to the face.',
+  //   description: [
+  //     'Blush brings color back to the complexion after foundation or concealer. Powder blush is classic and easy to blend, while cream blush can look dewy and skin-like.',
+  //     'Start with a small amount and build slowly. The best placement depends on face shape and the look you want.'
+  //   ],
+  //   ingredients: ['Mica', 'Talc', 'Dimethicone', 'Silica', 'Magnesium Stearate', 'Jojoba Esters', 'Tocopherol', 'Titanium Dioxide', 'Iron Oxides', 'Red 30 Lake'],
+  //   bestFor: ['Healthy-looking color', 'Soft makeup looks', 'Balancing complexion products'],
+  //   cautions: ['Highly pigmented blush can be hard to soften if overapplied', 'Cream blush may move oily base products'],
+  //   related: ['makeup-foundation', 'lipstick', 'concealer']
+  // },
+  {
+    slug: 'concealer',
+    name: 'Skin Correct Concealer',
+    category: 'მაკიაჟი',
+    brand: 'Uriage Skin Correct',
+    image: 'https://images.unsplash.com/photo-1625093742435-6fa192b6fb10?auto=format&fit=crop&w=1200&q=80',
+    summary: 'A targeted coverage product for dark circles, blemishes, redness, or small uneven areas.',
+    description: [
+      'Concealer is more concentrated than foundation, so it works best in small amounts. It can brighten under the eyes or cover specific marks without covering the whole face.',
+      'Choose a flexible texture for dry areas and a more matte texture for oily areas. Set lightly with powder only where creasing is a concern.'
+    ],
+    ingredients: ['Aqua', 'Dimethicone', 'Isododecane', 'Glycerin', 'Titanium Dioxide', 'Iron Oxides', 'Silica', 'Niacinamide', 'Trimethylsiloxysilicate', 'Phenoxyethanol'],
+    bestFor: ['Dark circles', 'Blemishes', 'Spot coverage'],
+    cautions: ['Too much product can crease', 'Remove carefully around the eyes'],
+    related: ['makeup-foundation', 'blush', 'eyeshadow']
+  },
+  {
+    slug: 'perfume',
+    name: 'Botanical Perfume',
+    category: 'პარფიუმერია',
+    brand: 'Uriage Botanical Scent',
+    image: 'https://images.unsplash.com/photo-1595425964272-5437c5815e4c?auto=format&fit=crop&w=1200&q=80',
+    summary: 'A fragrance product that adds a personal scent trail through fresh, floral, woody, or warm notes.',
+    description: [
+      'Perfume is more emotional than practical: it can become part of personal style, memory, and mood. The same scent can smell different on different people because of skin chemistry and environment.',
+      'Apply lightly to pulse points or clothing from a distance. Strong fragrance can overwhelm small spaces, so subtle application is usually more elegant.'
+    ],
+    ingredients: ['Alcohol Denat.', 'Parfum', 'Aqua', 'Limonene', 'Linalool', 'Citronellol', 'Geraniol', 'Coumarin', 'Benzyl Alcohol'],
+    bestFor: ['Personal scent', 'Special occasions', 'Mood and style'],
+    cautions: ['Fragrance can trigger sensitivity or headaches', 'Avoid spraying directly on irritated skin'],
+    related: ['body-lotion', 'body-oil', 'deodorant']
+  },
+  {
+    slug: 'deodorant',
+    name: 'Fresh Daily Deodorant',
+    category: 'თავის მოვლა',
+    brand: 'Uriage Fresh Daily',
+    image: 'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=1200&q=80',
+    summary: 'A personal care product that helps control odor and keeps underarms feeling fresh.',
+    description: [
+      'Deodorant targets odor, while antiperspirant targets sweat. Some products do both, so it helps to read the label before choosing one.',
+      'Apply to clean, dry skin. If underarms feel irritated, pause fragranced formulas and choose a simpler product until the skin calms.'
+    ],
+    ingredients: ['Aqua', 'Propanediol', 'Triethyl Citrate', 'Glycerin', 'Zinc Ricinoleate', 'Aloe Barbadensis Leaf Juice', 'Allantoin', 'Sodium Hydroxide', 'Potassium Sorbate', 'Parfum'],
+    bestFor: ['Daily freshness', 'Gym bags', 'Warm weather routines'],
+    cautions: ['Do not apply immediately after shaving if it stings', 'Fragrance and baking soda can irritate some underarms'],
+    related: ['perfume', 'soap', 'body-lotion']
+  }
+];
+
+export function getProductBySlug(slug) {
+  return products.find((product) => product.slug === slug);
+}
+
+export function getRelatedProducts(product) {
+  return product.related
+    .map((slug) => getProductBySlug(slug))
+    .filter(Boolean);
+}
+
+export function getProductsByCategory(category) {
+  return products.filter((product) => product.category === category);
+}
+
+export const categories = [...new Set(products.map((product) => product.category))];
